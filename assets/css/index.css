@@ -105,12 +105,27 @@ section p {
 }
 
 section button {
+  font-family: "Courier Prime";
+  color: black;
+  font-size: 25px;
   width: 480px;
   height: 83px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #fff;
   box-shadow: 10px 10px 4px 0px #000;
+}
+
+section button:hover {
+  font-family: "Courier Prime";
+  color: white;
+  font-size: 25px;
+  width: 480px;
+  height: 83px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #000;
+  box-shadow: 10px 10px 4px 0px #fff;
 }
 
 footer {
