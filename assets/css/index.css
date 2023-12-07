@@ -6,12 +6,8 @@ body {
 }
 
 header {
-  margin-top: 5px;
   margin-left: -7px;
-  background: none;
-  display: inline;
   width: 100%;
-  height: 50px;
 }
 
 .logo {
@@ -27,6 +23,7 @@ header {
   float: right;
   width: 75%;
   height: 50px;
+  align-items: end;
 }
 
 header .logo h4 {
@@ -51,24 +48,22 @@ header .logo h4 span {
 }
 
 header .menu ul {
-  float: right;
-  margin-right: 35px;
+  margin-left: 40%;
   font-family: "Courier Prime";
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
 header ul li {
+  margin-left: 5%;
   list-style-type: none;
   display: inline;
 }
 
 aside {
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 10%;
   float: left;
   width: 10%;
-  margin-top: 10px;
 }
 
 aside ul {
@@ -86,16 +81,19 @@ aside ul li {
 article {
   float: right;
   width: 90%;
-  height: 100%
-  margin-top: 10px;
+  height: 100%;
+  margin-top: 10%;
 }
 
 article h1 {
   font-family: "Jolly Lodger";
   font-size: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-style: normal;
   color: white;
   letter-spacing: 20px;
+  line-height: 180px;
 }
 
 section p {
@@ -104,6 +102,15 @@ section p {
   font-size: 25px;
   font-style: normal;
   line-height: normal;
+}
+
+section button {
+  width: 480px;
+  height: 83px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 10px 10px 4px 0px #000;
 }
 
 footer {
