@@ -56,10 +56,7 @@
       </div>
     </aside>
     <article>
-      <h1>
-        EKO <br />
-        HIDAYAT
-      </h1>
+      <h1 id="nama"></h1>
       <section>
         <p>
           I’m a Programmer & Road to <br />
@@ -78,5 +75,30 @@
         <a href="https://nceko.github.io/" target="_blank">nceko</a>
       </div>
     </footer>
+    <div class="foto-profile">
+      <div class="foto-profile-background"></div>
+      <img
+        src="/assets/img/profile/back_of_profile.png"
+        alt="Profile Picture"
+      />
+    </div>
+
+    <script>
+      var i = 0,
+        text;
+      text = "EKO HIDAYAT";
+
+      function ketik() {
+        if (i < text.length) {
+          if (text.charAt(i) === " ") {
+            document.getElementById("nama").innerHTML += "<br>";
+          }
+          document.getElementById("nama").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(ketik, 360);
+        }
+      }
+      ketik();
+    </script>
   </body>
 </html>
