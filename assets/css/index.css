@@ -60,6 +60,21 @@ header ul li {
   display: inline;
 }
 
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+header ul li a.active {
+  color: black;
+  font-weight: bold;
+}
+
 aside {
   margin-top: 10%;
   float: left;
@@ -151,10 +166,6 @@ footer a {
 
 footer a:hover {
   color: #343434;
-}
-
-.container {
-  height: 100%;
 }
 
 .foto-profile {
